@@ -6,7 +6,7 @@ def main():
     l1, l2 = read_file_as_lists('input.txt')
     dist = 0
     # The lists are sorted in read_file_as_lists.
-    for num1, num2 in zip(l1, l2):
+    for num1, num2 in zip(sorted(l1), sorted(l2)):
         sub_dist = abs(num1 - num2)
         dist += sub_dist
     correct_answer = 2_815_556
@@ -28,7 +28,7 @@ def read_file_as_lists(fn: str) -> (list[int], list[int]):
             p1, p2 = line.split('   ')
             l1.append(int(p1))
             l2.append(int(p2.replace('\n', '')))
-    return sorted(l1), sorted(l2)
+    return l1, l2
 
 if __name__ == "__main__":
     main()
