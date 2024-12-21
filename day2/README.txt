@@ -30,3 +30,7 @@ In the example above, the reports can be found safe or unsafe by checking those 
 So, in this example, 2 reports are safe.
 
 Analyze the unusual data from the engineers. How many reports are safe?
+
+That's the right answer! You are one gold star closer to finding the Chief Historian.
+
+You have completed Day 2! You can [Share] this victory or [Return to Your Advent Calendar].

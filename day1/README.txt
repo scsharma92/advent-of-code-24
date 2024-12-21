@@ -69,3 +69,7 @@ The last number, 3, appears in the right list three times; the similarity score 
 So, for these example lists, the similarity score at the end of this process is 31 (9 + 4 + 0 + 0 + 9 + 9).
 
 Once again consider your left and right lists. What is their similarity score?
+
+That's the right answer! You are one gold star closer to finding the Chief Historian.
+
+You have completed Day 1! You can [Share] this victory or [Return to Your Advent Calendar].
