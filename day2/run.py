@@ -4,7 +4,7 @@ ALLOWED_NEG_DIFFS = {-1, -2, -3}
 
 def main():
     "Loads the input file and checks it for correctness."
-    output = load_and_tag_input_file("input.txt", part=1)
+    output = load_and_tag_input_file("input.txt")
     p1_is_correct, p1_safe_count = score_output(output, index=-2, n_correct=680)
     print(f"Part1: {p1_is_correct} Safe scores: {p1_safe_count}.")
 
@@ -76,7 +76,7 @@ def tag_elements_part2(elements: list[int]) -> int:
 
 
 
-def load_and_tag_input_file(fn: str, part=1) -> list[list[int]]:
+def load_and_tag_input_file(fn: str) -> list[list[int]]:
     """
     Reads in the input data and returns it as a list of lists of ints.
     The last element is 1 for safe or 0 for unsafe.
