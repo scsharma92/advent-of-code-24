@@ -6,5 +6,8 @@ Using this as a way to get more familiar with editing files using vim and uv as 
   - Navigate to day1.
   - `uv run run.py`
 - Day 2:
-  - Navidate to day2.
+  - Navigate to day2.
+  - `uv run run.py`
+- Day 3:
+  - Navigate to day3.
   - `uv run run.py`
